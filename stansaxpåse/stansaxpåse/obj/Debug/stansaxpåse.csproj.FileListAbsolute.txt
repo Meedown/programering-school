@@ -1,0 +1,7 @@
+C:\Users\Axevalla\source\repos\Programmering\stansaxpåse\stansaxpåse\obj\Debug\stansaxpåse.csproj.AssemblyReference.cache
+C:\Users\Axevalla\source\repos\Programmering\stansaxpåse\stansaxpåse\obj\Debug\stansaxpåse.csproj.CoreCompileInputs.cache
+C:\Users\Axevalla\source\repos\Programmering\stansaxpåse\stansaxpåse\bin\Debug\stansaxpåse.exe.config
+C:\Users\Axevalla\source\repos\Programmering\stansaxpåse\stansaxpåse\bin\Debug\stansaxpåse.exe
+C:\Users\Axevalla\source\repos\Programmering\stansaxpåse\stansaxpåse\bin\Debug\stansaxpåse.pdb
+C:\Users\Axevalla\source\repos\Programmering\stansaxpåse\stansaxpåse\obj\Debug\stansaxpåse.exe
+C:\Users\Axevalla\source\repos\Programmering\stansaxpåse\stansaxpåse\obj\Debug\stansaxpåse.pdb
