@@ -19,12 +19,12 @@ namespace stansaxpåse
             int bot_saldo = 100;
             Random rnd = new Random();
             
-            Console.WriteLine("Please enter fighter name");
+            Console.WriteLine("Please enter Challenger name");
             name = Console.ReadLine();
 
             Console.WriteLine("\nYou will face Larry " +
                               "\nPress enter" );
-            Console.Read();
+            
 
             
 
@@ -32,7 +32,8 @@ namespace stansaxpåse
 
             while (saldo > 0 && bot_saldo > 0)
             {
-                
+                Console.Read();
+                Console.Clear();
                 Console.WriteLine("How much you want to bet " +
                                   "\nYour current money is " + saldo);
                 bool haveBet = false;
@@ -41,9 +42,26 @@ namespace stansaxpåse
                     if (int.TryParse(Console.ReadLine(), out int bet2) == true)
                     {
                         bet = bet2;
-                        saldo = saldo - bet;
-                        haveBet = true;
+                        if (bet > saldo)
+                        {
+
+                            Console.WriteLine("You can't bet more then you have stupid");
+
+
+                        }
+                        else
+                        {
+
+                            saldo = saldo - bet;
+                            haveBet = true;
+
+                        }
+
+
+
                     }
+
+
                 }
 
                 Console.WriteLine("Choose rock,paper or scissors" +
@@ -52,14 +70,14 @@ namespace stansaxpåse
                 "\n3. Scissors");
                 bot_choice = rnd.Next(1,4);
 
-                Console.ReadLine();
+                
                 val = "";
                 while (val != "1" && val != "2" && val != "3")
                 {
-                    Console.ReadLine();
+                    val = Console.ReadLine();
                 }
-                    
-                
+
+                int num_val = Convert.ToInt32(val);
 
                 if (bot_choice == 1)
                 {
@@ -85,7 +103,7 @@ namespace stansaxpåse
                 if (val == "1" && bot_choice == 3)
                 {
                     bet = bet * 2;
-                    
+
                     Console.WriteLine("You chose Rock and won " + bet);
                     saldo = saldo + bet;
 
@@ -97,20 +115,52 @@ namespace stansaxpåse
                     bet = bet * 2;
                     Console.WriteLine("You chose Paper and won " + bet);
                     saldo = saldo + bet;
-                    
+
                 }
                 else if (val == "3" && bot_choice == 2)
                 {
 
                     bet = bet * 2;
-                    
+
                     Console.WriteLine("You chose Scissors and won " + bet);
                     saldo = saldo + bet;
 
                 }
+                else if (val == "3" && bot_choice == 1)
+                {
+                    bet = bet * 2;
+
+                    Console.WriteLine("You chose Scissors and Lost " + bet);
+                    saldo = saldo + bet;
+
+                }
+                else if (val == "1" && bot_choice == 2)
+                {
+
+
+                    bet = bet * 2;
+                    Console.WriteLine("You chose Rock and Lost " + bet);
+                    saldo = saldo + bet;
+
+                }
+                else if (val == "2" && bot_choice == 3)
+                {
+
+                    bet = bet * 2;
+
+                    Console.WriteLine("You chose Paper and Lost " + bet);
+                    saldo = saldo + bet;
+                }
+                else if (num_val == bot_choice)
+                {
+                    Console.WriteLine("You tied");
+                    saldo = saldo + bet;
+                }
+
+
                 else
                 {
-                    
+
                     Console.WriteLine("You lost " + bet);
                 }
             
@@ -119,11 +169,12 @@ namespace stansaxpåse
             if (saldo <= 0)
             {
                 Console.WriteLine("You went broke you suck");
+                Console.ReadLine();
             }
-
             else if (bot_saldo <= 0)
             {
                 Console.WriteLine("Larry went broke Good Job");
+                Console.ReadLine();
             }
         }
     }

@@ -16,7 +16,7 @@ namespace stansaxpåse
             string val = "";
             int bot_choice = 0;
             int bet = 0;
-            int bot_saldo = 100;
+            //int bot_saldo = 100;
             Random rnd = new Random();
 
             Console.WriteLine("Please enter fighter name");
