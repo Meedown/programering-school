@@ -1,0 +1,7 @@
+C:\Users\Axevalla\Documents\Philip\programering-school\Stensaxpåse2\Stensaxpåse2\bin\Debug\Stensaxpåse2.exe.config
+C:\Users\Axevalla\Documents\Philip\programering-school\Stensaxpåse2\Stensaxpåse2\bin\Debug\Stensaxpåse2.exe
+C:\Users\Axevalla\Documents\Philip\programering-school\Stensaxpåse2\Stensaxpåse2\bin\Debug\Stensaxpåse2.pdb
+C:\Users\Axevalla\Documents\Philip\programering-school\Stensaxpåse2\Stensaxpåse2\obj\Debug\Stensaxpåse2.csproj.AssemblyReference.cache
+C:\Users\Axevalla\Documents\Philip\programering-school\Stensaxpåse2\Stensaxpåse2\obj\Debug\Stensaxpåse2.csproj.CoreCompileInputs.cache
+C:\Users\Axevalla\Documents\Philip\programering-school\Stensaxpåse2\Stensaxpåse2\obj\Debug\Stensaxpåse2.exe
+C:\Users\Axevalla\Documents\Philip\programering-school\Stensaxpåse2\Stensaxpåse2\obj\Debug\Stensaxpåse2.pdb
