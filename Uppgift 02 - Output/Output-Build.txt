@@ -1,0 +1,5 @@
+﻿Build started at 11:46...
+1>------ Build started: Project: while-loop-1, Configuration: Debug Any CPU ------
+1>  while-loop-1 -> C:\Users\Admin\Desktop\ph prog\programering-school\Uppgift 05 - While loop\while-loop-1\while-loop-1\bin\Debug\while-loop-1.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Build completed at 11:46 and took 00,490 seconds ==========
