@@ -1,0 +1,14 @@
+C:\Users\Admin\source\repos\programering\programering\bin\Debug\net8.0\programering.exe
+C:\Users\Admin\source\repos\programering\programering\bin\Debug\net8.0\programering.deps.json
+C:\Users\Admin\source\repos\programering\programering\bin\Debug\net8.0\programering.runtimeconfig.json
+C:\Users\Admin\source\repos\programering\programering\bin\Debug\net8.0\programering.dll
+C:\Users\Admin\source\repos\programering\programering\bin\Debug\net8.0\programering.pdb
+C:\Users\Admin\source\repos\programering\programering\obj\Debug\net8.0\programering.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\programering\programering\obj\Debug\net8.0\programering.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\programering\programering\obj\Debug\net8.0\programering.AssemblyInfo.cs
+C:\Users\Admin\source\repos\programering\programering\obj\Debug\net8.0\programering.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\programering\programering\obj\Debug\net8.0\programering.dll
+C:\Users\Admin\source\repos\programering\programering\obj\Debug\net8.0\refint\programering.dll
+C:\Users\Admin\source\repos\programering\programering\obj\Debug\net8.0\programering.pdb
+C:\Users\Admin\source\repos\programering\programering\obj\Debug\net8.0\programering.genruntimeconfig.cache
+C:\Users\Admin\source\repos\programering\programering\obj\Debug\net8.0\ref\programering.dll

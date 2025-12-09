@@ -1,0 +1,14 @@
+C:\Users\Admin\source\repos\RPS\RPS\bin\Debug\net8.0\RPS.exe
+C:\Users\Admin\source\repos\RPS\RPS\bin\Debug\net8.0\RPS.deps.json
+C:\Users\Admin\source\repos\RPS\RPS\bin\Debug\net8.0\RPS.runtimeconfig.json
+C:\Users\Admin\source\repos\RPS\RPS\bin\Debug\net8.0\RPS.dll
+C:\Users\Admin\source\repos\RPS\RPS\bin\Debug\net8.0\RPS.pdb
+C:\Users\Admin\source\repos\RPS\RPS\obj\Debug\net8.0\RPS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\RPS\RPS\obj\Debug\net8.0\RPS.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\RPS\RPS\obj\Debug\net8.0\RPS.AssemblyInfo.cs
+C:\Users\Admin\source\repos\RPS\RPS\obj\Debug\net8.0\RPS.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\RPS\RPS\obj\Debug\net8.0\RPS.dll
+C:\Users\Admin\source\repos\RPS\RPS\obj\Debug\net8.0\refint\RPS.dll
+C:\Users\Admin\source\repos\RPS\RPS\obj\Debug\net8.0\RPS.pdb
+C:\Users\Admin\source\repos\RPS\RPS\obj\Debug\net8.0\RPS.genruntimeconfig.cache
+C:\Users\Admin\source\repos\RPS\RPS\obj\Debug\net8.0\ref\RPS.dll

@@ -1,0 +1,14 @@
+C:\Users\Admin\source\repos\Textspel\Textspel\bin\Debug\net8.0\Textspel.exe
+C:\Users\Admin\source\repos\Textspel\Textspel\bin\Debug\net8.0\Textspel.deps.json
+C:\Users\Admin\source\repos\Textspel\Textspel\bin\Debug\net8.0\Textspel.runtimeconfig.json
+C:\Users\Admin\source\repos\Textspel\Textspel\bin\Debug\net8.0\Textspel.dll
+C:\Users\Admin\source\repos\Textspel\Textspel\bin\Debug\net8.0\Textspel.pdb
+C:\Users\Admin\source\repos\Textspel\Textspel\obj\Debug\net8.0\Textspel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\Textspel\Textspel\obj\Debug\net8.0\Textspel.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\Textspel\Textspel\obj\Debug\net8.0\Textspel.AssemblyInfo.cs
+C:\Users\Admin\source\repos\Textspel\Textspel\obj\Debug\net8.0\Textspel.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Textspel\Textspel\obj\Debug\net8.0\Textspel.dll
+C:\Users\Admin\source\repos\Textspel\Textspel\obj\Debug\net8.0\refint\Textspel.dll
+C:\Users\Admin\source\repos\Textspel\Textspel\obj\Debug\net8.0\Textspel.pdb
+C:\Users\Admin\source\repos\Textspel\Textspel\obj\Debug\net8.0\Textspel.genruntimeconfig.cache
+C:\Users\Admin\source\repos\Textspel\Textspel\obj\Debug\net8.0\ref\Textspel.dll
