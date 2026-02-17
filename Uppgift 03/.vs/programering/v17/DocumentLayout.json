@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\ph prog\\programering\\",
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\GitHub\\ph prog\\programering-school\\Uppgift 03\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3FBA9E8F-575C-464D-A2E0-C432E9E44420}|programering\\programering.csproj|c:\\users\\admin\\desktop\\ph prog\\programering\\programering\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3FBA9E8F-575C-464D-A2E0-C432E9E44420}|programering\\programering.csproj|c:\\users\\admin\\documents\\github\\ph prog\\programering-school\\uppgift 03\\programering\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3FBA9E8F-575C-464D-A2E0-C432E9E44420}|programering\\programering.csproj|solutionrelative:programering\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,9 +20,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\ph prog\\programering\\programering\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\ph prog\\programering-school\\Uppgift 03\\programering\\Program.cs",
               "RelativeDocumentMoniker": "programering\\Program.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\ph prog\\programering\\programering\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\ph prog\\programering-school\\Uppgift 03\\programering\\Program.cs",
               "RelativeToolTip": "programering\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

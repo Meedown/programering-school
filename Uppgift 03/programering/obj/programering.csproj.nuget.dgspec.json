@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Desktop\\ph prog\\programering\\programering\\programering.csproj": {}
+    "C:\\Users\\Admin\\Documents\\GitHub\\ph prog\\programering-school\\Uppgift 03\\programering\\programering.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Desktop\\ph prog\\programering\\programering\\programering.csproj": {
+    "C:\\Users\\Admin\\Documents\\GitHub\\ph prog\\programering-school\\Uppgift 03\\programering\\programering.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\ph prog\\programering\\programering\\programering.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\ph prog\\programering-school\\Uppgift 03\\programering\\programering.csproj",
         "projectName": "programering",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\ph prog\\programering\\programering\\programering.csproj",
+        "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\ph prog\\programering-school\\Uppgift 03\\programering\\programering.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\ph prog\\programering\\programering\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\ph prog\\programering-school\\Uppgift 03\\programering\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

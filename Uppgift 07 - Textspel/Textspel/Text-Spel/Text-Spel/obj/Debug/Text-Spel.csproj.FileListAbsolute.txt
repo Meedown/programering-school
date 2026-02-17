@@ -1,0 +1,8 @@
+C:\Users\Admin\Documents\GitHub\ph prog\programering-school\Uppgift 07 - Textspel\Textspel\Text-Spel\Text-Spel\bin\Debug\Text-Spel.exe.config
+C:\Users\Admin\Documents\GitHub\ph prog\programering-school\Uppgift 07 - Textspel\Textspel\Text-Spel\Text-Spel\bin\Debug\Text-Spel.exe
+C:\Users\Admin\Documents\GitHub\ph prog\programering-school\Uppgift 07 - Textspel\Textspel\Text-Spel\Text-Spel\bin\Debug\Text-Spel.pdb
+C:\Users\Admin\Documents\GitHub\ph prog\programering-school\Uppgift 07 - Textspel\Textspel\Text-Spel\Text-Spel\obj\Debug\Text-Spel.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\ph prog\programering-school\Uppgift 07 - Textspel\Textspel\Text-Spel\Text-Spel\obj\Debug\Text-Spel.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\ph prog\programering-school\Uppgift 07 - Textspel\Textspel\Text-Spel\Text-Spel\obj\Debug\Text-Spel.exe
+C:\Users\Admin\Documents\GitHub\ph prog\programering-school\Uppgift 07 - Textspel\Textspel\Text-Spel\Text-Spel\obj\Debug\Text-Spel.pdb
+C:\Users\Admin\Documents\GitHub\ph prog\programering-school\Uppgift 07 - Textspel\Textspel\Text-Spel\Text-Spel\obj\Debug\Text-Spel.exe.config
