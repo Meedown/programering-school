@@ -1,0 +1,8 @@
+C:\Users\Admin\Documents\GitHub\ph prog\programering-school\Uppgift 06 - Switch\switch ph\switch ph\bin\Debug\switch ph.exe.config
+C:\Users\Admin\Documents\GitHub\ph prog\programering-school\Uppgift 06 - Switch\switch ph\switch ph\bin\Debug\switch ph.exe
+C:\Users\Admin\Documents\GitHub\ph prog\programering-school\Uppgift 06 - Switch\switch ph\switch ph\bin\Debug\switch ph.pdb
+C:\Users\Admin\Documents\GitHub\ph prog\programering-school\Uppgift 06 - Switch\switch ph\switch ph\obj\Debug\switch ph.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\ph prog\programering-school\Uppgift 06 - Switch\switch ph\switch ph\obj\Debug\switch ph.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\ph prog\programering-school\Uppgift 06 - Switch\switch ph\switch ph\obj\Debug\switch ph.exe
+C:\Users\Admin\Documents\GitHub\ph prog\programering-school\Uppgift 06 - Switch\switch ph\switch ph\obj\Debug\switch ph.pdb
+C:\Users\Admin\Documents\GitHub\ph prog\programering-school\Uppgift 06 - Switch\switch ph\switch ph\obj\Debug\switch ph.exe.config

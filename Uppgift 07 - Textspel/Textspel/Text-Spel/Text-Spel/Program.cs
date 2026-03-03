@@ -17,6 +17,7 @@ namespace Text_Spel
             int playerDMG = 0;
             int playerMaxHP = 1;
             bool choice = true;
+            int damageDone;
 
             int enemyHP = 0;
             int enemyDMG = 0;
@@ -24,31 +25,62 @@ namespace Text_Spel
             int enemyMaxHP = 1;
             WriteLine("Lets play a game");
             while (choice)
-            {
-                WriteLine("Press 1 to play \n" +
+            {           
+                
+                WriteLine("\nPress 1 to play \n" +
                     "Press 2 to read the rules \n" +
-                    "Press 3 to quit");
-                Console.ReadLine();
+                    "Press 3 to quit\n");
                 string startChoice = Console.ReadLine();
-                switch (startChoice)
+                bool repeat = true;
+                while (repeat)
                 {
-                    case "1":
-                    WriteLine("Choose your weapon");
-                    Console.ReadLine();
-                    string weapon = Console.ReadLine();
-                    choice = false;
-                    break;
-                    case "2":
-                    WriteLine("You will fight a bandit to the death \n" +
-                    "You will choose a weapon to fight with a weapon of your choice");
-                    break;
-                    case "3":
-                        break;
+                    
+                    switch (startChoice)
+                    {
+                        case "1":
+                            repeat = false;
+                            WriteLine("Choose your weapon\n");
+                            WriteLine("1) Mace (3-20 DMG)\n" +
+                            "2) Sword (5-15 DMG)\n" +
+                            "3) Spear (7-10 DMG)\n");                        
+                            string weapon = Console.ReadLine();
+                            if (weapon == "Mace")
+                            {
+                                damageDone = rnd.Next(3, 21);
+                            }
+                            else if (weapon == "Sword")
+                            {
+                                damageDone = rnd.Next(5, 16);
+                            }
+                            else if (weapon == "Spear")
+                            {
+                                damageDone = rnd.Next(7, 11);
+                            }
+                            else
+                            {
+                                WriteLine("Invalid choice, please choose a valid weapon");
+                                repeat = true;
+                            }
 
+                            WriteLine(" You have choosen " + weapon);
+                            Console.ReadLine();
+
+
+                            break;
+                        case "2":
+                        WriteLine("You will fight a bandit to the death \n" +
+                        "You will choose a weapon to fight with");
+                        break;
+                        case "3":
+                            break;
+
+                    }
                 }
-            }
+            }  
+            Console.Write("You have " + playerHP + " The bandit has " + enemyHP);
 
         }
+        
         static void WriteLine(string text, int sleepMs = 35)
         {
             bool skip = false;
@@ -92,7 +124,6 @@ namespace Text_Spel
                 if (skip) break;
             }
 
-            Console.Write("\n");
         }
     }
 }
