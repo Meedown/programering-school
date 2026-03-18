@@ -15,14 +15,14 @@ namespace Text_Spel
             int playerHP = 1;
             int playerBaseDMG = 0;
             int playerDMG = 0;
-            int playerMaxHP = 1;
+            int playerMaxHP = 100;
             bool choice = true;
             int damageDone;
 
             int enemyHP = 0;
-            int enemyDMG = 0;
-            int enemyMaxDMG = 0;
-            int enemyMaxHP = 1;
+            int enemyDMG = 4;
+            int enemyMaxDMG = 10;
+            int enemyMaxHP = 100;
             WriteLine("Lets play a game");
             while (choice)
             {           
@@ -44,16 +44,20 @@ namespace Text_Spel
                             "2) Sword (5-15 DMG)\n" +
                             "3) Spear (7-10 DMG)\n");                        
                             string weapon = Console.ReadLine();
-                            if (weapon == "Mace")
+                            string weaponstr = "";
+                            if (weapon == "1")
                             {
+                                weaponstr = "Mace";
                                 damageDone = rnd.Next(3, 21);
                             }
-                            else if (weapon == "Sword")
+                            else if (weapon == "2")
                             {
+                                weaponstr = "Sword";
                                 damageDone = rnd.Next(5, 16);
                             }
-                            else if (weapon == "Spear")
+                            else if (weapon == "3")
                             {
+                                weaponstr = "Spear";
                                 damageDone = rnd.Next(7, 11);
                             }
                             else
@@ -62,7 +66,7 @@ namespace Text_Spel
                                 repeat = true;
                             }
 
-                            WriteLine(" You have choosen " + weapon);
+                            WriteLine("You have choosen " + weaponstr);
                             Console.ReadLine();
 
 
@@ -75,10 +79,13 @@ namespace Text_Spel
                             break;
 
                     }
-                }
+                } choice = false;
             }  
+            while (playerHP > 0)
+                
             Console.Write("You have " + playerHP + " The bandit has " + enemyHP);
-
+            playerHP = 0;
+            
         }
         
         static void WriteLine(string text, int sleepMs = 35)

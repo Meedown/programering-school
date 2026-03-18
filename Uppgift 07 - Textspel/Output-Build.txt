@@ -1,0 +1,11 @@
+﻿Build started at 11:50...
+1>------ Build started: Project: Text-Spel, Configuration: Debug Any CPU ------
+1>C:\Users\Admin\Documents\GitHub\ph prog\programering-school\Uppgift 07 - Textspel\Textspel\Text-Spel\Text-Spel\Program.cs(16,17,16,30): warning CS0219: The variable 'playerBaseDMG' is assigned but its value is never used
+1>C:\Users\Admin\Documents\GitHub\ph prog\programering-school\Uppgift 07 - Textspel\Textspel\Text-Spel\Text-Spel\Program.cs(17,17,17,26): warning CS0219: The variable 'playerDMG' is assigned but its value is never used
+1>C:\Users\Admin\Documents\GitHub\ph prog\programering-school\Uppgift 07 - Textspel\Textspel\Text-Spel\Text-Spel\Program.cs(18,17,18,28): warning CS0219: The variable 'playerMaxHP' is assigned but its value is never used
+1>C:\Users\Admin\Documents\GitHub\ph prog\programering-school\Uppgift 07 - Textspel\Textspel\Text-Spel\Text-Spel\Program.cs(23,17,23,25): warning CS0219: The variable 'enemyDMG' is assigned but its value is never used
+1>C:\Users\Admin\Documents\GitHub\ph prog\programering-school\Uppgift 07 - Textspel\Textspel\Text-Spel\Text-Spel\Program.cs(24,17,24,28): warning CS0219: The variable 'enemyMaxDMG' is assigned but its value is never used
+1>C:\Users\Admin\Documents\GitHub\ph prog\programering-school\Uppgift 07 - Textspel\Textspel\Text-Spel\Text-Spel\Program.cs(25,17,25,27): warning CS0219: The variable 'enemyMaxHP' is assigned but its value is never used
+1>  Text-Spel -> C:\Users\Admin\Documents\GitHub\ph prog\programering-school\Uppgift 07 - Textspel\Textspel\Text-Spel\Text-Spel\bin\Debug\Text-Spel.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Build completed at 11:50 and took 00,307 seconds ==========
