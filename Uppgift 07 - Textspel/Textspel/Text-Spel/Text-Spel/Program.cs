@@ -12,25 +12,29 @@ namespace Text_Spel
         static void Main(string[] args)
         {
             Random rnd = new Random();
-            int playerHP = 1;
-            int playerBaseDMG = 0;
-            int playerDMG = 0;
-            int playerMaxHP = 100;
+            int playerHP = 100;
             bool choice = true;
             int damageDone;
-
-            int enemyHP = 0;
+            string weaponstr = "";
+            int enemyHP = 100;
             int enemyDMG = 4;
             int enemyMaxDMG = 10;
             int enemyMaxHP = 100;
             WriteLine("Lets play a game");
-            while (choice)
+            while (choice == true)
             {           
                 
                 WriteLine("\nPress 1 to play \n" +
                     "Press 2 to read the rules \n" +
                     "Press 3 to quit\n");
                 string startChoice = Console.ReadLine();
+                while (startChoice != "1" && startChoice != "2" && startChoice != "3")
+                {
+                    WriteLine("\nPress 1 to play \n" +
+                   "Press 2 to read the rules \n" +
+                   "Press 3 to quit\n");
+                    startChoice = Console.ReadLine();
+                }
                 bool repeat = true;
                 while (repeat)
                 {
@@ -42,9 +46,8 @@ namespace Text_Spel
                             WriteLine("Choose your weapon\n");
                             WriteLine("1) Mace (3-20 DMG)\n" +
                             "2) Sword (5-15 DMG)\n" +
-                            "3) Spear (7-10 DMG)\n");                        
+                            "3) Spear (8-10 DMG)\n");                        
                             string weapon = Console.ReadLine();
-                            string weaponstr = "";
                             if (weapon == "1")
                             {
                                 weaponstr = "Mace";
@@ -53,12 +56,12 @@ namespace Text_Spel
                             else if (weapon == "2")
                             {
                                 weaponstr = "Sword";
-                                damageDone = rnd.Next(5, 16);
+                                damageDone = rnd.Next(6, 16);
                             }
                             else if (weapon == "3")
                             {
                                 weaponstr = "Spear";
-                                damageDone = rnd.Next(7, 11);
+                                damageDone = rnd.Next(8, 12);
                             }
                             else
                             {
@@ -79,13 +82,52 @@ namespace Text_Spel
                             break;
 
                     }
-                } choice = false;
-            }  
-            while (playerHP > 0)
-                
-            Console.Write("You have " + playerHP + " The bandit has " + enemyHP);
-            playerHP = 0;
-            
+                }
+                choice = false;
+            }
+            while (playerHP > 0 && enemyHP > 0)
+            {
+                Console.WriteLine("\n-----------------------------------------");
+                Console.WriteLine("You: " + playerHP + " HP | Bandit: " + enemyHP + " HP");
+                Console.WriteLine("Press 1 to attack!");
+
+                string action = Console.ReadLine();
+
+                if (action == "1")
+                {
+                    
+                    int attackPower = 0;
+                    if (weaponstr == "Mace") attackPower = rnd.Next(3, 21);
+                    else if (weaponstr == "Sword") attackPower = rnd.Next(5, 16);
+                    else if (weaponstr == "Spear") attackPower = rnd.Next(7, 11);
+
+                    enemyHP -= attackPower;
+                    WriteLine("You hit the bandit for " + attackPower + " damage!");
+
+                    
+                    if (enemyHP <= 0)
+                    {
+                        WriteLine("The bandit has been defeated! You win!");
+                        break;
+                    }
+
+                    
+                    int enemyAttack = rnd.Next(enemyDMG, enemyMaxDMG + 1);
+                    playerHP -= enemyAttack;
+                    WriteLine("The bandit hits you back for " + enemyAttack + " damage!");
+
+                    if (playerHP <= 0)
+                    {
+                        WriteLine("You have been slain...");
+                    }
+                }
+                else
+                {
+                    WriteLine("Invalid input! The bandit stares at you awkwardly.");
+                }
+            }
+
+
         }
         
         static void WriteLine(string text, int sleepMs = 35)
