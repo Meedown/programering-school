@@ -19,7 +19,6 @@ namespace Text_Spel
             int enemyHP = 100;
             int enemyDMG = 4;
             int enemyMaxDMG = 10;
-            int enemyMaxHP = 100;
             WriteLine("Lets play a game");
             while (choice == true)
             {           

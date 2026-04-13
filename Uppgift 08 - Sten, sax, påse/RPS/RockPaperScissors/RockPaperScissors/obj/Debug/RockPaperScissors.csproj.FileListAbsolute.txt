@@ -1,0 +1,8 @@
+C:\Users\Admin\Documents\GitHub\ph prog\programering-school\Uppgift 08 - Sten, sax, påse\RPS\RockPaperScissors\RockPaperScissors\obj\Debug\RockPaperScissors.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\ph prog\programering-school\Uppgift 08 - Sten, sax, påse\RPS\RockPaperScissors\RockPaperScissors\obj\Debug\RockPaperScissors.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\ph prog\programering-school\Uppgift 08 - Sten, sax, påse\RPS\RockPaperScissors\RockPaperScissors\bin\Debug\RockPaperScissors.exe.config
+C:\Users\Admin\Documents\GitHub\ph prog\programering-school\Uppgift 08 - Sten, sax, påse\RPS\RockPaperScissors\RockPaperScissors\bin\Debug\RockPaperScissors.exe
+C:\Users\Admin\Documents\GitHub\ph prog\programering-school\Uppgift 08 - Sten, sax, påse\RPS\RockPaperScissors\RockPaperScissors\bin\Debug\RockPaperScissors.pdb
+C:\Users\Admin\Documents\GitHub\ph prog\programering-school\Uppgift 08 - Sten, sax, påse\RPS\RockPaperScissors\RockPaperScissors\obj\Debug\RockPaperScissors.exe
+C:\Users\Admin\Documents\GitHub\ph prog\programering-school\Uppgift 08 - Sten, sax, påse\RPS\RockPaperScissors\RockPaperScissors\obj\Debug\RockPaperScissors.pdb
+C:\Users\Admin\Documents\GitHub\ph prog\programering-school\Uppgift 08 - Sten, sax, påse\RPS\RockPaperScissors\RockPaperScissors\obj\Debug\RockPaperScissors.exe.config
